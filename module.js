@@ -32,10 +32,10 @@ var triangleP = function(a, b, c) {
 
 //it needs to be exported in order to require it from the console
 exports.circleA = circleA;
-exports.triangleA = triangleA;
+exports.rectangleA = rectangleA;
 exports.triangleA = triangleA;
 exports.circleP = circleP;
-exports.triangleP = triangleP;
+exports.rectangleP = rectangleP;
 exports.triangleP = triangleP;
 
 
