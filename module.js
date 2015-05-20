@@ -12,17 +12,18 @@ var circleP = function(r) {
 
 //square area
 var rectangleA = function(a, b) {
-	return 2*(a+b);
+	return a*b;
 };
 
 //square perimeter
 var rectangleP = function(a, b) {
-	return a*b;
+	return 2*(a+b);
 };
 
 //triangle area
-var triangleA = function(b, h) {
-	return 1/2*b*h;
+var triangleA = function(a, b, c) {
+	var p = (a+b+c)/2;
+	return Math.sqrt(p*(p-a)*(p-b)*(p-c));
 };
 
 //triangle perimeter
@@ -37,5 +38,3 @@ exports.triangleA = triangleA;
 exports.circleP = circleP;
 exports.rectangleP = rectangleP;
 exports.triangleP = triangleP;
-
-
