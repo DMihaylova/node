@@ -11,13 +11,13 @@ var circleP = function(r) {
 };
 
 //square area
-var square = function(a) {
-	return a*2;
+var rectangle = function(a, b) {
+	return 2*(a+b);
 };
 
 //square perimeter
-var squareP = function(a) {
-	return 4*a;
+var rectangleP = function(a, b) {
+	return a*b;
 };
 
 //triangle area
@@ -34,8 +34,8 @@ var triangleP = function(a, b, c) {
 exports = {
 	circle: circle,
 	circleP: circleP,
-	square: square,
-	squareP: squareP,
+	rectangle: rectangle,
+	rectangleP: rectangleP,
 	triangle: triangle,
 	triangleP: triangleP
 }
