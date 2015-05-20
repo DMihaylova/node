@@ -1,7 +1,7 @@
 var Pi = 3.14;
 
 //circle area
-var circle = function(r) {
+var circleA = function(r) {
 	return Pi*r*r;
 };
 
@@ -11,7 +11,7 @@ var circleP = function(r) {
 };
 
 //square area
-var rectangle = function(a, b) {
+var rectangleA = function(a, b) {
 	return 2*(a+b);
 };
 
@@ -21,7 +21,7 @@ var rectangleP = function(a, b) {
 };
 
 //triangle area
-var triangle = function(b, h) {
+var triangleA = function(b, h) {
 	return 1/2*b*h;
 };
 
@@ -32,11 +32,11 @@ var triangleP = function(a, b, c) {
 
 //it needs to be exported in order to require it from the console
 exports = {
-	circle: circle,
+	circleA: circleA,
 	circleP: circleP,
-	rectangle: rectangle,
+	rectangleA: rectangleA,
 	rectangleP: rectangleP,
-	triangle: triangle,
+	triangleA: triangleA,
 	triangleP: triangleP
 }
 
