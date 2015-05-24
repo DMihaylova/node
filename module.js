@@ -1,4 +1,4 @@
-var Pi = 3.14;
+var Pi = Math.PI;
 
 //circle area
 var circleA = function(r) {
